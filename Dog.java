@@ -18,6 +18,6 @@ public class Dog
 	}
 
 	public String toString(){
-	 return name + " likes to " + speak();
+	 return name + " likes to " + this.speak();
 	}
 }

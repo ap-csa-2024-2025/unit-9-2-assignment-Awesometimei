@@ -1,6 +1,5 @@
 public class Car
 {
-	// This code is complete
 	private String model;
 	private int fuelLevel;
 	
@@ -20,8 +19,6 @@ public class Car
 		return fuelLevel;
 	}
 	
-	// Returns how many more miles the car can go
-	// with the fuel left
 	public double milesLeft(double mpg)
 	{
 		return fuelLevel * mpg;

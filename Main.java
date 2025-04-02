@@ -4,11 +4,11 @@ public class Main
 {
   public static void main(String[] args)
   {
-
-    // Uncomment to test the Car classes
-    // CarTester.run();
-
-    // Uncomment to test the Company classes
-    // CompanyTester.run();
+    Dog d1 = new Dog("Dog");
+    Dog d2 = new LoudDog("Loud Dog");
+    System.out.println(d1);
+    System.out.println(d2);
+    CarTester.run();
+    CompanyTester.run();
   }
 }

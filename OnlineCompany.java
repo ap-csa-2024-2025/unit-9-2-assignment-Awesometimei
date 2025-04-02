@@ -5,29 +5,17 @@ public class OnlineCompany extends Company
 	// An online company's address is its webaddress
 	public OnlineCompany(String name, String webAddress)
 	{
-
+		super(name);
+		this.webAddress = webAddress;
 	}
 
-	// Return the website address, since the address is
-	// reinterpreted as the web address here.
 	public String address()
 	{
-		return null;
+		return webAddress;
 	}
-
-	/** Return a String of the form
- 	* [name]
-	* [webaddress]
-  *
-	* Remember To get name from superclass, use super.getName()
-	* 
-	* Example Output:
-	* CodeHS
-	* www.codehs.com
-	*/
 
 	public String toString()
 	{
-		return null;
+		return super.getName() + "\n" + webAddress;
 	}
 }

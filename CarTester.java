@@ -2,24 +2,16 @@ public class CarTester
 {
 	public static void run()
 	{
-		// Create a Car object
+		Car c1 = new Car("Toyota Corolla", 5);
+		System.out.println(c1.getModel());
+		System.out.println(c1.getFuelLevel());
+		System.out.println(c1.milesLeft(23));
+		System.out.println(c1);
 
-		// Print out the model
-
-		// Print out the fuelLevel
-
-		// Print how many miles are left with 23 mpg
-
-		// Print the object
-
-		// Create an ElectricCar object
-
-		// Print out the model
-
-		// Print out the fuelLevel
-
-		// Print how many miles are left with 400 miles per charge
-
-		// Print the object
+		ElectricCar e1 = new ElectricCar("Toyota Rav4", 91);
+		System.out.println(e1.getModel());
+		System.out.println(e1.getFuelLevel());
+		System.out.println(e1.milesLeft(400));
+		System.out.println(e1);
 	}
 }
